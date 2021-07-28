@@ -6,7 +6,7 @@ public class Main {
 		
 		Scanner sc = new Scanner(System.in);
 		
-	  System.out.println("Enter three number:");
+	  System.out.println("entre com tres numeros:");
 	  int a = sc.nextInt();
 	  int b = sc.nextInt();
 	  int c = sc.nextInt();
@@ -32,8 +32,8 @@ public class Main {
 		return aux;
 	}
 	
-	public static void showResult(int value) {
-		System.out.println("Higher = " + value);
+	public static void showResult(int valor) {
+		System.out.println("Higher = " + valor);
 	}
 	
 	  
